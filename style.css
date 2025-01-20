@@ -134,3 +134,31 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+/* media queries style  */
+@media screen and (max-width:576px){
+    .navbar, search-icon{
+        display: none;
+    }
+   
+    .influencer{
+        flex-direction: column-reverse;
+        margin:0;
+        margin-left: 0;
+    }
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        margin: 0;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+    .footer-under{
+        flex-direction:column-reverse;
+        margin: 0;
+    }
+}
